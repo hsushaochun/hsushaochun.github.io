@@ -10,30 +10,30 @@
 }
 
 body {
-  background-color:#F6D5E3;color:#381500;
+  background-color:#FAFAFA;color:#1C1C1C;
   font-family: Arial, sans-serif; /*字型*/
   margin: 0;
 }h1 {/*標題*/ text-align: center;}
 footer {/* 尾腳 */
   /*padding: 5px;text-align: center;*/
   font-size: 10px; padding:1px 14px;
-  background-color:#381500;color:#9A3C65;
+  background-color:#1C1C1C;color:#0044FF;
 }
 
-a{color:#F16113;text-decoration:none;/*隱藏連結底線*/}a:hover{text-decoration:underline;/*滑鼠移經時顯示底線*/}
+a{color:#0044FF;text-decoration:none;/*隱藏連結底線*/}a:hover{text-decoration:underline;/*滑鼠移經時顯示底線*/}
 
 ul.sidenav {/*導航欄*/
   list-style-type: none;
   margin: 0; padding: 0; width: 22%;/*導航欄寬(邊界)*/
-  background-color: #64B72A;
+  background-color: #666666;
   position: fixed; height: 100%; overflow: auto;
 }
 ul.sidenav li a {
-  display: block;/*指定填充*/ color: #9A3C65;
+  display: block;/*指定填充*/ color: #0044FF;
   padding: 10px 16px; text-decoration: none;
 }
 ul.sidenav li a:hover{/*鼠標移到上方時更改背景色*/
-  background-color: #381500; color: white;
+  background-color: #1C1C1C; color: white;
 }
 
 div.content {/*內容*/
