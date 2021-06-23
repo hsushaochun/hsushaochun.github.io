@@ -1,4 +1,7 @@
-.Block_Color{/*淺黃#F5F2D6 黃#FFEB0A 夜青#4C679A 紅#EA202C 夜#0C2045*/}
+.Block_Color{
+/*淺黃#F5F2D6 黃#FFEB0A 夜青#4C679A 紅#EA202C 夜#0C2045*/
+/*淺#F6D5E3  子#9A3C65 綠#64B72A  橘#F16113 夜#381500*/
+}
 
 .Abstract {
   /*background-color: #e6ffff;color: #000d1a;*/
@@ -7,30 +10,30 @@
 }
 
 body {
-  background-color:#F5F2D6;color:#0C2045;
+  background-color:#F6D5E3;color:#381500;
   font-family: Arial, sans-serif; /*字型*/
   margin: 0;
 }h1 {/*標題*/ text-align: center;}
 footer {/* 尾腳 */
   /*padding: 5px;text-align: center;*/
   font-size: 10px; padding:1px 14px;
-  background-color:#0C2045;color:#FFEB0A;
+  background-color:#381500;color:#9A3C65;
 }
 
-a{color:#F31625;text-decoration:none;/*隱藏連結底線*/}a:hover{text-decoration:underline;/*滑鼠移經時顯示底線*/}
+a{color:#F16113;text-decoration:none;/*隱藏連結底線*/}a:hover{text-decoration:underline;/*滑鼠移經時顯示底線*/}
 
 ul.sidenav {/*導航欄*/
   list-style-type: none;
   margin: 0; padding: 0; width: 22%;/*導航欄寬(邊界)*/
-  background-color: #4C679A;
+  background-color: #64B72A;
   position: fixed; height: 100%; overflow: auto;
 }
 ul.sidenav li a {
-  display: block;/*指定填充*/ color: #FFEB0A;
+  display: block;/*指定填充*/ color: #9A3C65;
   padding: 10px 16px; text-decoration: none;
 }
 ul.sidenav li a:hover{/*鼠標移到上方時更改背景色*/
-  background-color: #0C2045; color: white;
+  background-color: #381500; color: white;
 }
 
 div.content {/*內容*/
